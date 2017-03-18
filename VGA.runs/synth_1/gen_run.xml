@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1484299731">
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/7seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/DEMO/DEMO/demo2/vga.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DEMO/DEMO/demo2/vga.v"/>
+        <Attr Name="ImportTime" Val="1481631220"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/DEMO/DEMO/demo2/mem_addr_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DEMO/DEMO/demo2/mem_addr_gen.v"/>
+        <Attr Name="ImportTime" Val="1483353469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/DEMO/DEMO/demo2/clock_divisor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DEMO/DEMO/demo2/clock_divisor.v"/>
+        <Attr Name="ImportTime" Val="1482573028"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/kbd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/pwm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../wav/wav.srcs/sources_1/new/pwm.v"/>
+        <Attr Name="ImportTime" Val="1483087002"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../wav/wav.srcs/sources_1/new/control.v"/>
+        <Attr Name="ImportTime" Val="1483101999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/music.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../wav/wav.srcs/sources_1/new/music.v"/>
+        <Attr Name="ImportTime" Val="1483101789"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/DEMO/DEMO/demo2/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DEMO/DEMO/demo2/top.v"/>
+        <Attr Name="ImportTime" Val="1483353816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/pikachu.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/pikachu.coe"/>
+        <Attr Name="ImportTime" Val="1482425528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/ball.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/ball.coe"/>
+        <Attr Name="ImportTime" Val="1482425537"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/shadow.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/shadow.coe"/>
+        <Attr Name="ImportTime" Val="1482464586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/pikachu_jump.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/pikachu_jump.coe"/>
+        <Attr Name="ImportTime" Val="1482480267"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/pikachu_down.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/pikachu_down.coe"/>
+        <Attr Name="ImportTime" Val="1482496565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/bg_texture.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/bg_texture.coe"/>
+        <Attr Name="ImportTime" Val="1482517724"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/title1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/title1.coe"/>
+        <Attr Name="ImportTime" Val="1482558375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/title2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/title2.coe"/>
+        <Attr Name="ImportTime" Val="1482568210"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/bg_rp.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/bg_rp.coe"/>
+        <Attr Name="ImportTime" Val="1482566111"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/title3.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/title3.coe"/>
+        <Attr Name="ImportTime" Val="1482568745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/bg.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/bg.coe"/>
+        <Attr Name="ImportTime" Val="1482462209"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/select1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/select1.coe"/>
+        <Attr Name="ImportTime" Val="1482570643"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/select2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/select2.coe"/>
+        <Attr Name="ImportTime" Val="1482570664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/win.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/win.coe"/>
+        <Attr Name="ImportTime" Val="1482573413"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/lose.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/lose.coe"/>
+        <Attr Name="ImportTime" Val="1482573396"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/bg_mid.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/bg_mid.coe"/>
+        <Attr Name="ImportTime" Val="1482826228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/bg_low.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/bg_low.coe"/>
+        <Attr Name="ImportTime" Val="1482826446"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/pole.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/pole.coe"/>
+        <Attr Name="ImportTime" Val="1482827200"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/0.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/0.coe"/>
+        <Attr Name="ImportTime" Val="1482846757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/1.coe"/>
+        <Attr Name="ImportTime" Val="1482846759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/2.coe"/>
+        <Attr Name="ImportTime" Val="1482846760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/3.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/3.coe"/>
+        <Attr Name="ImportTime" Val="1482846762"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/4.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/4.coe"/>
+        <Attr Name="ImportTime" Val="1482846764"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/5.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/5.coe"/>
+        <Attr Name="ImportTime" Val="1482846765"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/6.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/6.coe"/>
+        <Attr Name="ImportTime" Val="1482846767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/7.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/7.coe"/>
+        <Attr Name="ImportTime" Val="1482846768"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/8.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/8.coe"/>
+        <Attr Name="ImportTime" Val="1482846770"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/9.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/9.coe"/>
+        <Attr Name="ImportTime" Val="1482846772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/num.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/num.coe"/>
+        <Attr Name="ImportTime" Val="1482902389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/crash.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/crash.coe"/>
+        <Attr Name="ImportTime" Val="1483076719"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Verilog/VGA/Pictrans/pikachu_win.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pictrans/pikachu_win.coe"/>
+        <Attr Name="ImportTime" Val="1483081700"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/demo2/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DEMO/DEMO/demo2/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1483104326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_RuntimeOptimized" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design">
+      <Option Id="Directive">0</Option>
+      <Option Id="FlattenHierarchy">1</Option>
+      <Option Id="FsmExtraction">0</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="pikachu_jump_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="KeyboardCtrl_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="num"/>
+  <BlockFileSet Type="BlockSrcs" Name="ball_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="bg_rp"/>
+  <BlockFileSet Type="BlockSrcs" Name="pikachu_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="pikachu_down_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="shadow_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="menu_bg"/>
+  <BlockFileSet Type="BlockSrcs" Name="title1"/>
+  <BlockFileSet Type="BlockSrcs" Name="title2"/>
+  <BlockFileSet Type="BlockSrcs" Name="title3"/>
+  <BlockFileSet Type="BlockSrcs" Name="select1"/>
+  <BlockFileSet Type="BlockSrcs" Name="select2"/>
+  <BlockFileSet Type="BlockSrcs" Name="bg_mid"/>
+  <BlockFileSet Type="BlockSrcs" Name="bg_low"/>
+  <BlockFileSet Type="BlockSrcs" Name="bg_pole"/>
+  <BlockFileSet Type="BlockSrcs" Name="crash_pixel"/>
+  <BlockFileSet Type="BlockSrcs" Name="win"/>
+</GenRun>

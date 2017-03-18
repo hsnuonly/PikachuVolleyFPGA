@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../VGA.srcs/sources_1/ip/title3/sim/title3.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 13 17:31:24 2017
+# Process ID: 12876
+# Current directory: D:/Document/Verilog/VGA/VGA.runs/select2_synth_1
+# Command line: vivado.exe -log select2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source select2.tcl
+# Log file: D:/Document/Verilog/VGA/VGA.runs/select2_synth_1/select2.vds
+# Journal file: D:/Document/Verilog/VGA/VGA.runs/select2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source select2.tcl -notrace

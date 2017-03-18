@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 13 17:26:23 2017
+# Process ID: 1292
+# Current directory: D:/Document/Verilog/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10116 D:\Document\Verilog\VGA\VGA.xpr
+# Log file: D:/Document/Verilog/VGA/vivado.log
+# Journal file: D:/Document/Verilog/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Document/Verilog/VGA/VGA.xpr
+reset_run synth_1
+reset_run ball_pixel_synth_1
+reset_run pikachu_pixel_synth_1
+reset_run shadow_pixel_synth_1
+reset_run pikachu_jump_pixel_synth_1
+reset_run pikachu_down_pixel_synth_1
+reset_run menu_bg_synth_1
+reset_run title1_synth_1
+reset_run bg_rp_synth_1
+reset_run title2_synth_1
+reset_run title3_synth_1
+reset_run select1_synth_1
+reset_run select2_synth_1
+reset_run bg_mid_synth_1
+reset_run bg_low_synth_1
+reset_run bg_pole_synth_1
+reset_run num_synth_1
+reset_run crash_pixel_synth_1
+reset_run win_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

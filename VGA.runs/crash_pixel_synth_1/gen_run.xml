@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="crash_pixel_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1484299731">
+  <File Type="RDS-PROPCONSTRS" Name="crash_pixel_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="crash_pixel.tcl"/>
+  <File Type="RDS-RDS" Name="crash_pixel.vds"/>
+  <File Type="RDS-UTIL" Name="crash_pixel_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="crash_pixel_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="crash_pixel.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="crash_pixel_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="crash_pixel_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/crash_pixel">
+    <File Path="$PSRCDIR/sources_1/ip/crash_pixel/crash_pixel.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="crash_pixel"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/crash_pixel">
+    <File Path="$PSRCDIR/sources_1/ip/crash_pixel/crash_pixel.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="crash_pixel"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

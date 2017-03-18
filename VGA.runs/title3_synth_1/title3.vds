@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 13 17:31:23 2017
+# Process ID: 9388
+# Current directory: D:/Document/Verilog/VGA/VGA.runs/title3_synth_1
+# Command line: vivado.exe -log title3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source title3.tcl
+# Log file: D:/Document/Verilog/VGA/VGA.runs/title3_synth_1/title3.vds
+# Journal file: D:/Document/Verilog/VGA/VGA.runs/title3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source title3.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 294.742 ; gain = 83.492
+INFO: [Synth 8-638] synthesizing module 'title3' [d:/Document/Verilog/VGA/VGA.srcs/sources_1/ip/title3/synth/title3.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'title3' (9#1) [d:/Document/Verilog/VGA/VGA.srcs/sources_1/ip/title3/synth/title3.vhd:69]
+Finished RTL Elaboration : Time (s): cpu = 00:01:21 ; elapsed = 00:01:46 . Memory (MB): peak = 493.891 ; gain = 282.641
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:21 ; elapsed = 00:01:46 . Memory (MB): peak = 493.891 ; gain = 282.641
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 554.914 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:35 ; elapsed = 00:02:03 . Memory (MB): peak = 554.914 ; gain = 343.664
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:35 ; elapsed = 00:02:03 . Memory (MB): peak = 554.914 ; gain = 343.664
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:02:03 . Memory (MB): peak = 554.914 ; gain = 343.664
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:35 ; elapsed = 00:02:03 . Memory (MB): peak = 554.914 ; gain = 343.664
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:02:04 . Memory (MB): peak = 554.914 ; gain = 343.664
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:02:21 . Memory (MB): peak = 572.922 ; gain = 361.672
+Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:21 . Memory (MB): peak = 572.922 ; gain = 361.672
+Finished Technology Mapping : Time (s): cpu = 00:01:51 ; elapsed = 00:02:21 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |RAMB18E1 |     1|
+|2     |RAMB36E1 |     1|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:02:22 . Memory (MB): peak = 583.570 ; gain = 372.320
+synth_design: Time (s): cpu = 00:01:50 ; elapsed = 00:02:16 . Memory (MB): peak = 610.914 ; gain = 393.590

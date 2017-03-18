@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ball_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/ball_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pikachu_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/pikachu_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="shadow_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/shadow_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pikachu_jump_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/pikachu_jump_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pikachu_down_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/pikachu_down_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="menu_bg_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/menu_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="title1_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/title1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bg_rp_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/bg_rp_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="title2_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/title2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="title3_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/title3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="select1_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/select1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="select2_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/select2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bg_mid_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/bg_mid_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bg_low_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/bg_low_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bg_pole_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/bg_pole_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="num_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/num_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="crash_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/crash_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="win_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/win_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ball_pixel_synth_1"/>
+		<Parent Id="pikachu_pixel_synth_1"/>
+		<Parent Id="shadow_pixel_synth_1"/>
+		<Parent Id="pikachu_jump_pixel_synth_1"/>
+		<Parent Id="pikachu_down_pixel_synth_1"/>
+		<Parent Id="menu_bg_synth_1"/>
+		<Parent Id="title1_synth_1"/>
+		<Parent Id="bg_rp_synth_1"/>
+		<Parent Id="title2_synth_1"/>
+		<Parent Id="title3_synth_1"/>
+		<Parent Id="select1_synth_1"/>
+		<Parent Id="select2_synth_1"/>
+		<Parent Id="bg_mid_synth_1"/>
+		<Parent Id="bg_low_synth_1"/>
+		<Parent Id="bg_pole_synth_1"/>
+		<Parent Id="num_synth_1"/>
+		<Parent Id="crash_pixel_synth_1"/>
+		<Parent Id="win_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ball_pixel_synth_1"/>
+		<Parent Id="pikachu_pixel_synth_1"/>
+		<Parent Id="shadow_pixel_synth_1"/>
+		<Parent Id="pikachu_jump_pixel_synth_1"/>
+		<Parent Id="pikachu_down_pixel_synth_1"/>
+		<Parent Id="menu_bg_synth_1"/>
+		<Parent Id="title1_synth_1"/>
+		<Parent Id="bg_rp_synth_1"/>
+		<Parent Id="title2_synth_1"/>
+		<Parent Id="title3_synth_1"/>
+		<Parent Id="select1_synth_1"/>
+		<Parent Id="select2_synth_1"/>
+		<Parent Id="bg_mid_synth_1"/>
+		<Parent Id="bg_low_synth_1"/>
+		<Parent Id="bg_pole_synth_1"/>
+		<Parent Id="num_synth_1"/>
+		<Parent Id="crash_pixel_synth_1"/>
+		<Parent Id="win_synth_1"/>
+	</Run>
+</Runs>
+

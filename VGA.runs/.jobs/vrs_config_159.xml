@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bg_pixel_synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/bg_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bg_pixel_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/Document/Verilog/VGA/VGA.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="bg_pixel_synth_1"/>
+	</Run>
+</Runs>
+

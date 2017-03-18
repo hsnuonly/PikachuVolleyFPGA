@@ -1,0 +1,2 @@
+title2.v,verilog,xil_defaultlib,../../../../VGA.srcs/sources_1/ip/title2_1/sim/title2.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../VGA.srcs/sources_1/ip/pikachu_pixel_1/sim/pikachu_pixel.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

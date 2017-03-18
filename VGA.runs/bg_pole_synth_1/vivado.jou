@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 13 17:31:29 2017
+# Process ID: 13944
+# Current directory: D:/Document/Verilog/VGA/VGA.runs/bg_pole_synth_1
+# Command line: vivado.exe -log bg_pole.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bg_pole.tcl
+# Log file: D:/Document/Verilog/VGA/VGA.runs/bg_pole_synth_1/bg_pole.vds
+# Journal file: D:/Document/Verilog/VGA/VGA.runs/bg_pole_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bg_pole.tcl -notrace

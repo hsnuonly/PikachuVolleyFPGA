@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 13 17:26:23 2017
+# Process ID: 1292
+# Current directory: D:/Document/Verilog/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10116 D:\Document\Verilog\VGA\VGA.xpr
+# Log file: D:/Document/Verilog/VGA/vivado.log
+# Journal file: D:/Document/Verilog/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Document/Verilog/VGA/VGA.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Keyboard Sample Code/Keyboard Sample Code/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Keyboard Sample Code/Keyboard Sample Code/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'KeyboardCtrl_0' is locked:
+* IP definition 'KeyboardCtrl (1.0)' for IP 'KeyboardCtrl_0' (customized with software release 2016.2) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 836.270 ; gain = 156.445
+reset_run synth_1
+reset_run ball_pixel_synth_1
+reset_run pikachu_pixel_synth_1
+reset_run shadow_pixel_synth_1
+reset_run pikachu_jump_pixel_synth_1
+reset_run pikachu_down_pixel_synth_1
+reset_run menu_bg_synth_1
+reset_run title1_synth_1
+reset_run bg_rp_synth_1
+reset_run title2_synth_1
+reset_run title3_synth_1
+reset_run select1_synth_1
+reset_run select2_synth_1
+reset_run bg_mid_synth_1
+reset_run bg_low_synth_1
+reset_run bg_pole_synth_1
+reset_run num_synth_1
+reset_run crash_pixel_synth_1
+reset_run win_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jan 13 17:28:57 2017] Launched ball_pixel_synth_1, pikachu_pixel_synth_1, shadow_pixel_synth_1, pikachu_jump_pixel_synth_1, pikachu_down_pixel_synth_1, menu_bg_synth_1, title1_synth_1, bg_rp_synth_1, title2_synth_1, title3_synth_1, select1_synth_1, select2_synth_1, bg_mid_synth_1, bg_low_synth_1, bg_pole_synth_1, num_synth_1, crash_pixel_synth_1, win_synth_1, synth_1...
+Run output will be captured here:
+ball_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/ball_pixel_synth_1/runme.log
+pikachu_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/pikachu_pixel_synth_1/runme.log
+shadow_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/shadow_pixel_synth_1/runme.log
+pikachu_jump_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/pikachu_jump_pixel_synth_1/runme.log
+pikachu_down_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/pikachu_down_pixel_synth_1/runme.log
+menu_bg_synth_1: D:/Document/Verilog/VGA/VGA.runs/menu_bg_synth_1/runme.log
+title1_synth_1: D:/Document/Verilog/VGA/VGA.runs/title1_synth_1/runme.log
+bg_rp_synth_1: D:/Document/Verilog/VGA/VGA.runs/bg_rp_synth_1/runme.log
+title2_synth_1: D:/Document/Verilog/VGA/VGA.runs/title2_synth_1/runme.log
+title3_synth_1: D:/Document/Verilog/VGA/VGA.runs/title3_synth_1/runme.log
+select1_synth_1: D:/Document/Verilog/VGA/VGA.runs/select1_synth_1/runme.log
+select2_synth_1: D:/Document/Verilog/VGA/VGA.runs/select2_synth_1/runme.log
+bg_mid_synth_1: D:/Document/Verilog/VGA/VGA.runs/bg_mid_synth_1/runme.log
+bg_low_synth_1: D:/Document/Verilog/VGA/VGA.runs/bg_low_synth_1/runme.log
+bg_pole_synth_1: D:/Document/Verilog/VGA/VGA.runs/bg_pole_synth_1/runme.log
+num_synth_1: D:/Document/Verilog/VGA/VGA.runs/num_synth_1/runme.log
+crash_pixel_synth_1: D:/Document/Verilog/VGA/VGA.runs/crash_pixel_synth_1/runme.log
+win_synth_1: D:/Document/Verilog/VGA/VGA.runs/win_synth_1/runme.log
+synth_1: D:/Document/Verilog/VGA/VGA.runs/synth_1/runme.log
+[Fri Jan 13 17:29:01 2017] Launched impl_1...
+Run output will be captured here: D:/Document/Verilog/VGA/VGA.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 855.160 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 13 17:41:41 2017...
