@@ -1,9 +1,6 @@
 # PikachuVolleyFPGA
 Final project of Hardware Lab. in NTHU.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vqJdWv9xbeA" frameborder="0" allowfullscreen>
-</iframe>
-
+See demo on https://www.youtube.com/embed/vqJdWv9xbeA (early version)
 
 ## Requirement
 * Vivado 2016.3 or later
